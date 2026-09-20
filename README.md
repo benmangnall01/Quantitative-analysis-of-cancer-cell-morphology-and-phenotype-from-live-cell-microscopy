@@ -36,7 +36,7 @@ For the 50-image-per-line analysis, 74,670 cells were segmented and 66,349 passe
 
 After excluding border-touching, extreme-area and incomplete observations, 952 A172 cells were retained for exploratory analysis. PCA and clustering supported three reproducible morphology-and-crowding profiles:
 
-a compact, relatively round and crowded group;\
+a compact, relatively round and crowded group\
 a compact but more isolated group\
 a larger, less circular and more elongated group.
 
