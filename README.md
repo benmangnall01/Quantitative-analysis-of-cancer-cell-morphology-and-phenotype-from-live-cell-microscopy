@@ -8,19 +8,19 @@ The analysis uses images and COCO-format annotations from the LIVECell dataset. 
 
 **What the pipeline does**
 
-Loads phase-contrast TIFF images and COCO instance annotations. \
+Loads phase-contrast TIFF images and COCO instance annotations. 
 
-Converts annotations into instance-label masks and checks them against the source images.\
+Converts annotations into instance-label masks and checks them against the source images.
 
-Runs Cellpose instance segmentation and evaluates it against annotated A172 images.\
+Runs Cellpose instance segmentation and evaluates it against annotated A172 images.
 
-Tunes Cellpose parameters on a development set and assesses the selected settings on held-out images.\
+Tunes Cellpose parameters on a development set and assesses the selected settings on held-out images.
 
-Runs the selected model across A172 images, creating masks and per-cell morphology, intensity, and neighbourhood measurements.\
+Runs the selected model across A172 images, creating masks and per-cell morphology, intensity, and neighbourhood measurements.
 
-Explores A172 morphology with quality control, PCA and clustering, then tests whether the clusters are stable under bootstrap refitting.\
+Explores A172 morphology with quality control, PCA and clustering, then tests whether the clusters are stable under bootstrap refitting.
 
-Extracts comparable features from A172, BT474, BV2, Huh7 and MCF7 images.\
+Extracts comparable features from A172, BT474, BV2, Huh7 and MCF7 images.
 
 Trains a morphology-based cell-line classifier using field-aware cross-validation, so cells from the same imaging field cannot occur in both training and test data.
 
