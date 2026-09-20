@@ -495,14 +495,7 @@ def create_exemplar_figure(selected_cells, cluster_numbers):
 
 # ---------------------------------------------------------------------
 # Load phenotype-analysis data
-# ---------------------------------------------------------------------
-
-if not INPUT_FILE.exists():
-    raise FileNotFoundError(
-        "Phenotype-analysis cells were not found. Run "
-        "07_a172_phenotype_exploration.py first.\n"
-        f"Expected file: {INPUT_FILE}"
-    )
+# --------------------------------------------------------------------
 
 cells = pd.read_csv(INPUT_FILE)
 required_columns = [
