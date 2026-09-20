@@ -58,6 +58,9 @@ Cell-level samples are correlated within an imaging field. Group-aware cross-val
 
 The A172 clusters are descriptive, internally validated groupings. Biological interpretation would need orthogonal evidence, such as markers, perturbations or time-resolved cell tracking.
 
+## Raw data download
+
+To run this pipeline, download the microscopy images via the link in https://github.com/sartorius-research/LIVECell and place them in /data/raw. Download the A172 Training set and validation set from the same repository and place them in /data/annotations.
 
 ## Data citation
 
