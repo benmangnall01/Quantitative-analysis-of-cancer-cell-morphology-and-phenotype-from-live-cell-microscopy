@@ -2,7 +2,7 @@
 
 ## Quantitative bioimage analysis with LIVECell phase-contrast microscopy
 
-This repository contains a Python workflow for moving from phase-contrast microscopy images to quantitative, single-cell analysis. It asks whether morphology and local crowding could describe changing phenotypes and distinguish several cell lines.
+This is a Python workflow for moving from phase-contrast microscopy images to quantitative, single-cell analysis. It asks whether morphology and local crowding could describe changing phenotypes and distinguish several cell lines.
 
 The analysis uses images and COCO-format annotations from the LIVECell dataset. It is not intended as a diagnostic tool or a claim that morphology alone defines cell identity. The emphasis is on a transparent, reproducible workflow with visual checks and held-out evaluation.
 
